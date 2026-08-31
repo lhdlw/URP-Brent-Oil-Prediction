@@ -18,9 +18,8 @@ credentials*.json
 Thumbs.db
 .DS_Store
 
-# Personal information and data with unconfirmed redistribution permission
+# Personal information in the completion report
 /项目文档/
-/数据/
 
 # Historical outputs and model artifacts remain local
 /模型输出/
