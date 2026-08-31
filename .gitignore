@@ -1,0 +1,34 @@
+# Local environments and editor configuration
+.conda/
+.venv/
+venv/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Credentials and machine-local files
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+Thumbs.db
+.DS_Store
+
+# Personal information and data with unconfirmed redistribution permission
+/项目文档/
+/数据/
+
+# Historical outputs and model artifacts remain local
+/模型输出/
+*.h5
+*.hdf5
+*.keras
+*.pth
+*.pt
+*.npy
+*.npz
+*.log
